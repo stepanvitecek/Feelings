@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="feeling0">#802222</color>
+    <color name="feeling1">#805d19</color>
+    <color name="feeling2">#b3af12</color>
+    <color name="feeling3">#608000</color>
+    <color name="feeling4">#999999</color>
+    <color name="feeling5">#99CC00</color>
+    <color name="feeling6">#FFFA1A</color>
+    <color name="feeling7">#FFBB33</color>
+    <color name="feeling8">#FF4444</color>
+
+</resources>
