@@ -7,7 +7,7 @@
     <eu.vstepik.feelings.ui.widgets.TimePreference
         android:title="@string/notification_time"
         android:order="2"
-        android:key="notification_time"
+        android:key="Time"
         android:persistent="true" />
     </PreferenceCategory>
 </PreferenceScreen>

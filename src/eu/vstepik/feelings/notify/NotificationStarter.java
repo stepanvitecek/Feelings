@@ -26,11 +26,11 @@ public class NotificationStarter extends BroadcastReceiver {
 		Notification notification = new Notification.Builder(context)
 				.setContentIntent(pendingIntent)
 				.setSmallIcon(R.drawable.ic_launcher)
-				.setTicker(context.getString(R.string.how_do_i_feel_today))
+				.setTicker(context.getString(R.string.your_feel))
 				.setWhen(System.currentTimeMillis())
 				.setAutoCancel(true)
-				.setContentTitle(
-						context.getString(R.string.how_do_i_feel_today))
+				.setContentTitle(context.getString(R.string.your_feel))
+				.setContentText(context.getString(R.string.touch))
 				.getNotification();
 		notificationManager.notify(1, notification);
 	}

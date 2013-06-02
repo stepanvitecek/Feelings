@@ -9,9 +9,6 @@ import java.util.List;
 import java.util.Locale;
 
 import org.achartengine.GraphicalView;
-import org.achartengine.chart.BarChart;
-import org.achartengine.chart.BarChart.Type;
-import org.achartengine.model.CategorySeries;
 import org.achartengine.model.TimeSeries;
 import org.achartengine.model.XYMultipleSeriesDataset;
 import org.achartengine.renderer.SimpleSeriesRenderer;
@@ -24,7 +21,6 @@ import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.database.ContentObserver;
-import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
@@ -62,7 +58,7 @@ public class MainActivity extends Activity {
 	}
 
 	/**
-	 * Sets up tabs
+	 * Set up tabs
 	 */
 	private void setupTabs() {
 		ActionBar actionBar = getActionBar();
@@ -127,7 +123,7 @@ public class MainActivity extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case R.id.authors:
-			startActivity(new Intent(this, AuthorsActivity.class));
+			startActivity(new Intent(this, AboutActivity.class));
 			return true;
 		case R.id.settings:
 			startActivity(new Intent(this, SettingsActivity.class));

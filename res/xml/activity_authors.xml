@@ -1,34 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android" 
-  android:key="settings">
+  android:key="settings"
+  android:clickable="false">
    <PreferenceCategory 
-        android:title="@string/version_title" 
+        android:title="@string/changelog" 
         android:order="1" 
         android:key="Version">
         <Preference 
             android:order="2" 
             android:title="@string/version" 
             android:summary="@string/version_sum" 
-            android:key="version" />
+            android:key="version">
+            <intent
+        android:action="android.intent.action.VIEW"
+        android:data="http://github.com/vstepik/Feelings"/> 
+        </Preference>
     </PreferenceCategory>
     <PreferenceCategory 
         android:title="@string/authors" 
         android:order="1" 
         android:key="Authors">
-        <Preference 
+        <PreferenceScreen 
             android:order="2" 
             android:title="@string/stepan" 
             android:summary="@string/stepan_sum" 
-            android:key="author"
-            android:autoLink="web"
-            android:linksClickable="true" />
-        <Preference 
+            android:key="author">
+        <intent
+        android:action="android.intent.action.VIEW"
+        android:data="http://vstepik.github.com/"/>
+        </PreferenceScreen>
+        <PreferenceScreen 
             android:order="3" 
             android:title="@string/david" 
             android:summary="@string/david_sum" 
             android:key="author"
             android:autoLink="web"
-            android:linksClickable="true" />
+            android:linksClickable="true">
+        <intent
+        android:action="android.intent.action.VIEW"
+        android:data="http://destil.cz/"/>
+        </PreferenceScreen>
     </PreferenceCategory>
 </PreferenceScreen>

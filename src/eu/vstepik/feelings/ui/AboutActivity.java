@@ -6,7 +6,7 @@ import android.preference.PreferenceActivity;
 import android.view.MenuItem;
 import eu.vstepik.feelings.R;
 
-public class AuthorsActivity extends PreferenceActivity {
+public class AboutActivity extends PreferenceActivity {
 
 	 @SuppressWarnings("deprecation")
 	@Override
@@ -19,7 +19,7 @@ public class AuthorsActivity extends PreferenceActivity {
 	 @Override
 	    public boolean onOptionsItemSelected(MenuItem menuItem)
 	    {       
-	        startActivity(new Intent(AuthorsActivity.this,MainActivity.class)); 
+	        startActivity(new Intent(AboutActivity.this,MainActivity.class)); 
 	        return true;
 	    }
 }

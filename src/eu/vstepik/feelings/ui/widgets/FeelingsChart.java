@@ -110,20 +110,20 @@ public class FeelingsChart extends TimeChart {
 		XYSeries series = dataset.getSeriesAt(0);
 		XYMultipleSeriesRenderer renderer = new XYMultipleSeriesRenderer();
 		renderer.setLabelsTextSize(25);
-		renderer.setPointSize(10);
+		renderer.setPointSize(15);
 		renderer.setMargins(new int[] { 0, 0, 0, 0 });
-		renderer.setYAxisMin(-0.5);
+		renderer.setYAxisMin(- 0.5);
 		renderer.setYAxisMax(FEELINGS_COUNT - 0.5);
 		renderer.setYLabels(FEELINGS_COUNT);
 		// display days to the future
 		if (series.getItemCount() == 1) {
-			renderer.setXAxisMax(series.getMaxX() + TimeChart.DAY * 2);
+			renderer.setXAxisMax(series.getMaxX() + TimeChart.DAY);
 		} else {
 			renderer.setXAxisMax(series.getMaxX() + TimeChart.DAY);
 		}
 		// display days to the past
 		if (series.getItemCount() == 1) {
-			renderer.setXAxisMin(series.getMinX() - TimeChart.DAY * 2);
+			renderer.setXAxisMin(series.getMinX() - TimeChart.DAY);
 		} else if (series.getItemCount() < 7) {
 			renderer.setXAxisMin(series.getMinX() - TimeChart.DAY);
 		} else {
@@ -137,7 +137,7 @@ public class FeelingsChart extends TimeChart {
 		renderer.setZoomEnabled(true, false);
 		XYSeriesRenderer r = new XYSeriesRenderer();
 		r.setPointStyle(PointStyle.CIRCLE);
-		r.setLineWidth(7);
+		r.setLineWidth(8);
 		r.setColor(Color.parseColor("#000000"));
 		r.setFillPoints(true);
 		renderer.addSeriesRenderer(r);

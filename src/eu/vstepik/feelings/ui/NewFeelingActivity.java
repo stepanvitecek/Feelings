@@ -24,10 +24,11 @@ import eu.vstepik.feelings.data.Feeling.Feelings;
 
 @SuppressLint("NewApi")
 public class NewFeelingActivity extends Activity {
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setTitle(R.string.your_feel);
 		setContentView(R.layout.activity_new_feeling);
 		String action = getIntent().getAction();
 		if (action != null && action.equals(Intent.ACTION_TIME_TICK)) {
@@ -65,12 +66,12 @@ public class NewFeelingActivity extends Activity {
 	/**
 	 * Ads feeling into database or edits previously entered
 	 */
-	private void addFeeling(int feeling) {
+	private void addFeeling(int i) {
 		Calendar now = new GregorianCalendar();
 		Calendar today = new GregorianCalendar(now.get(Calendar.YEAR),
 				now.get(Calendar.MONTH), now.get(Calendar.DAY_OF_MONTH));
 		ContentValues values = new ContentValues();
-		values.put(Feelings.VALUE, feeling);
+		values.put(Feelings.VALUE, i);
 		values.put(Feelings.CREATED, today.getTimeInMillis());
 		values.put(Feelings.NOTE, "");
 		Cursor cursor = getContentResolver().query(Feelings.CONTENT_URI, null,
@@ -86,6 +87,7 @@ public class NewFeelingActivity extends Activity {
 					.show();
 		}
 		cursor.close();
+		startActivity(new Intent(this, MainActivity.class));
 		finish();
-	}
+   }
 }

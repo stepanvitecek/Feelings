@@ -10,5 +10,6 @@
     <color name="feeling6">#FFFA1A</color>
     <color name="feeling7">#FFBB33</color>
     <color name="feeling8">#FF4444</color>
+    <color name="sectionSeparatorColour">#a0a0a0</color>
 
 </resources>
