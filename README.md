@@ -1,4 +1,4 @@
-Feelings (ALPHA) - https://play.google.com/apps/testing/eu.vstepik.feelings
+Feelings (ALPHA) - http://goo.gl/4KumA
 ========
 
 Simple Android app for tracking and analyzing your daily feelings.
