@@ -1,4 +1,4 @@
-Feelings (ALPHA)
+Feelings (ALPHA) - https://play.google.com/apps/testing/eu.vstepik.feelings
 ========
 
 Simple Android app for tracking and analyzing your daily feelings.
@@ -9,26 +9,20 @@ Currently the app can answer questions like:
 - when is your most best/worst day of the week
 - ...
 
-Update v0.6.6 (66)
------------
-- stats are OK
-- better design
-- some little tweaks
-
-ToDo list v0.7 (70)
+Update v0.6.9 (69) - Google Play Store
 -----------
 - new icon
-- redesigned stats
-- remove some bugs
+- better, but not best, design
+- some little tweaks
 
 ToDo list
 -----------
-- support for Android 2.2+
-- sync with Google Account
 - export to CSV format
+- Czech translation
+- redesigned stats
 - ...
 
-Contact
+Contact me!
 -----------
 - svitecek@gmail.com (mail)
 - +Štěpán Víteček (Google+)
