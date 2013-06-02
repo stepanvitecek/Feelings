@@ -1,4 +1,4 @@
-Feelings (BETA)
+Feelings (ALPHA)
 ========
 
 Simple Android app for tracking and analyzing your daily feelings.
@@ -27,3 +27,10 @@ ToDo list
 - sync with Google Account
 - export to CSV format
 - ...
+
+Contact
+-----------
+- svitecek@gmail.com (mail)
+- +Štěpán Víteček (Google+)
+- vstepik (Twitter)
+
