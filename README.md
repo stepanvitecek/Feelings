@@ -20,6 +20,7 @@ ToDo list
 - export to CSV format
 - Czech translation
 - redesigned stats
+- new improved views 
 - ...
 
 Contact me!
