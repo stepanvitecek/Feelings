@@ -10,16 +10,22 @@ Currently the app can answer questions like:
 - ...
 
 ### Update v0.6.9 (69) - Google Play Store
+
 - new icon
 - better, but not best, design
 - some little tweaks
 
+---
+
 ### ToDo list
+
 - export to CSV format
 - Czech translation
 - redesigned stats
 - new improved views 
 - ...
+
+---
 
 Contact me!
 -----------
