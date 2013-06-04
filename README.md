@@ -9,23 +9,17 @@ Currently the app can answer questions like:
 - when is your most best/worst day of the week
 - ...
 
-### 
-
-Update v0.6.9 (69) - Google Play Store
------------
+### Update v0.6.9 (69) - Google Play Store
 - new icon
 - better, but not best, design
 - some little tweaks
 
-ToDo list
------------
+### ToDo list
 - export to CSV format
 - Czech translation
 - redesigned stats
 - new improved views 
 - ...
-
-### 
 
 Contact me!
 -----------
