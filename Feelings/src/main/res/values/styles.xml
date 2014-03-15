@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- style for the buttons -->
+    <style name="FeelingButton" parent="android:style/Widget.Holo.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+<!-- style for the tabs -->
+   <style name="MyActionBarTabStyle" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+       <item name="android:paddingLeft">0dp</item>
+       <item name="android:paddingRight">0dp</item>
+   </style>
+   
+   <!-- style for the tabs -->
+   <style name="MyActionBarTabStyles" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+       <item name="android:paddingLeft">0dp</item>
+       <item name="android:paddingRight">0dp</item>
+   </style>
+
+</resources>

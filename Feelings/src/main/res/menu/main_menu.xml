@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_feeling"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom"
+        android:title="@string/your_feel"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="never"
+        android:title="@string/settings"/>
+    <item
+        android:id="@+id/authors"
+        android:icon="@drawable/ic_action_info"
+        android:showAsAction="never"
+        android:title="@string/about"/>
+
+</menu>
