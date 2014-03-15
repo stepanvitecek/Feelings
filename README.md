@@ -18,7 +18,7 @@ Currently the app can answer questions like:
 ---
 
 ### ToDo list
-
+-----------
 - export to CSV format
 - Czech translation
 - redesigned stats
