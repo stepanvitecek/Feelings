@@ -18,7 +18,7 @@ Currently the app can answer questions like:
 ---
 
 ### ToDo list
-========
+
 - export to CSV format
 - Czech translation
 - redesigned stats
@@ -28,7 +28,7 @@ Currently the app can answer questions like:
 ---
 
 Contact me!
-========
+-----------
 - svitecek@gmail.com (mail)
 - +Štěpán Víteček (Google+)
 - vstepik (Twitter)
